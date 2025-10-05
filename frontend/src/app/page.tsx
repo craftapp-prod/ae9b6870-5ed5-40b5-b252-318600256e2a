@@ -221,9 +221,7 @@ export default function MiniPlayer() {
 
           <h2 className="text-2xl font-bold text-gray-900 mb-6" data-path="frontend/src/app/page.tsx" id="el_69784b7d">Features</h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-path="frontend/src/app/page.tsx" id="el_6e126c66">
-
-            <div className="flex flex-col items-start p-4 bg-gray-50 rounded-lg" data-path="frontend/src/app/page.tsx" id="el_d261830e">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-path="frontend/src/app/page.tsx" id="el_6e126c66"><div className="flex flex-col items-start p-4 bg-gray-50 rounded-lg selected-element" data-path="frontend/src/app/page.tsx" id="el_d261830e">
 
               <div className="p-3 rounded-full bg-primary-100 mb-4" data-path="frontend/src/app/page.tsx" id="el_de8d3815">
 
@@ -237,7 +235,7 @@ export default function MiniPlayer() {
               </p>
             </div>
 
-            <div className="flex flex-col items-start p-4 bg-gray-50 rounded-lg" data-path="frontend/src/app/page.tsx" id="el_55d8ad90">
+          <div className="flex flex-col items-start p-4 bg-gray-50 rounded-lg" data-path="frontend/src/app/page.tsx" id="el_55d8ad90">
 
               <div className="p-3 rounded-full bg-primary-100 mb-4" data-path="frontend/src/app/page.tsx" id="el_1f5b9f61">
 
@@ -251,7 +249,7 @@ export default function MiniPlayer() {
               </p>
             </div>
 
-            <div className="flex flex-col items-start p-4 bg-gray-50 rounded-lg" data-path="frontend/src/app/page.tsx" id="el_20a82d80">
+          <div className="flex flex-col items-start p-4 bg-gray-50 rounded-lg" data-path="frontend/src/app/page.tsx" id="el_20a82d80">
 
               <div className="p-3 rounded-full bg-primary-100 mb-4" data-path="frontend/src/app/page.tsx" id="el_523b9122">
 
@@ -264,7 +262,7 @@ export default function MiniPlayer() {
                 Enjoy videos in fullscreen for an immersive experience
               </p>
             </div>
-          </div>
+        </div>
         </div>
 
       <div className="mt-12 text-center" data-path="frontend/src/app/page.tsx" id="el_3a2f4d1f">
