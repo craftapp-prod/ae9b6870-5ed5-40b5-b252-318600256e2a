@@ -120,7 +120,7 @@ export default function MiniPlayer() {
       <div className="max-w-4xl mx-auto" data-path="frontend/src/app/page.tsx" id="el_aa920b74"><div className="text-center mb-12" data-path="frontend/src/app/page.tsx" id="el_66ec7d8d"><h1 className="text-4xl font-bold text-gray-900 mb-4 selected-element" data-path="frontend/src/app/page.tsx" id="el_6f478c2e">MiniPlayer</h1>
       </div>
 
-      <p className="text-xl text-gray-600 max-w-2xl mx-auto selected-element" data-path="frontend/src/app/page.tsx" id="el_c106f7d1">
+      <p className="text-xl text-gray-600 max-w-2xl mx-auto" data-path="frontend/src/app/page.tsx" id="el_c106f7d1">
             A lightweight, user-friendly video player with essential playback controls
           </p>
 
