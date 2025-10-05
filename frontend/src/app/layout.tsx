@@ -10,22 +10,22 @@ export const metadata: Metadata = {
   description: "A simple and efficient video player with essential playback controls",
   icons: {
     icon: `${API_URL}/assets/default/favicon.ico`,
-    shortcut: `${API_URL}/assets/default/favicon.ico`,
-  },
+    shortcut: `${API_URL}/assets/default/favicon.ico`
+  }
 };
 
 export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+  children
+
+
+}: {children: React.ReactNode;}) {
   return (
     <html lang="en">
       <body className={`${inter.className} bg-gray-50`}>
-        <main className="min-h-screen">
+        <main className="min-h-screen" data-path="frontend/src/app/layout.tsx" id="el_bc5f252c">
           {children}
         </main>
       </body>
-    </html>
-  );
+    </html>);
+
 }
