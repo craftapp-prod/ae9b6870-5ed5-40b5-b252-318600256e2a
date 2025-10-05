@@ -126,8 +126,8 @@ export default function MiniPlayer() {
 
       <div className="bg-white rounded-xl shadow-lg overflow-hidden" data-path="frontend/src/app/page.tsx" id="el_9c674b64">
 
-          <div ref={playerContainerRef} className="relative bg-black aspect-video" onMouseMove={handleMouseMove} data-path="frontend/src/app/page.tsx" id="el_3037d53f">
-            {!videoUrl ? <div className="absolute inset-0 flex items-center justify-center bg-gray-100" data-path="frontend/src/app/page.tsx" id="el_0aea084c">
+          <div ref={playerContainerRef} className="relative bg-black aspect-video" onMouseMove={handleMouseMove} data-path="frontend/src/app/page.tsx" id="el_3037d53f"><div id="el_0aea084c" className="absolute inset-0 flex items-center justify-center bg-gray-100 selected-element" data-path="frontend/src/app/page.tsx" data-dynamic-element="false"><div id="el_fdfa6b03" className="text-center p-8" data-path="frontend/src/app/page.tsx"><h2 id="el_e1887ce5" className="text-xl font-semibold text-gray-800 mb-2" data-path="frontend/src/app/page.tsx">Upload a Video to Play</h2><p id="el_d8187968" className="text-gray-600 mb-6" data-path="frontend/src/app/page.tsx">Supports MP4, WebM, and other common video formats</p><div id="el_9ed7f65f" className="relative" data-path="frontend/src/app/page.tsx"><label id="el_8578e3a6" className="block" data-path="frontend/src/app/page.tsx"><input id="el_3731bbad" className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-md file:border-0 file:text-sm file:font-semibold file:bg-primary-50 file:text-primary-700 hover:file:bg-primary-100 cursor-pointer" accept="video/*" data-path="frontend/src/app/page.tsx" type="file" /></label></div></div></div>
+          {!videoUrl ? <div className="absolute inset-0 flex items-center justify-center bg-gray-100 selected-element" data-path="frontend/src/app/page.tsx" id="el_0aea084c">
 
                 <div className="text-center p-8" data-path="frontend/src/app/page.tsx" id="el_fdfa6b03">
 
@@ -214,7 +214,7 @@ export default function MiniPlayer() {
                     </div>
                   </div>}
               </>}
-          </div>
+        </div>
         </div>
 
       <div className="mt-12 bg-white rounded-xl shadow-lg p-8 selected-element" data-path="frontend/src/app/page.tsx" id="el_3068e530">
